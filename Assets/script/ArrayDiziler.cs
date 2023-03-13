@@ -14,6 +14,7 @@ public class ArrayDiziler : MonoBehaviour
         if(Input.GetKeyDown(KeyCode.Space))
         {
             Debug.Log("Ýsim: " + isimler[0] +" "+ "Yaþý: " + yaslar[0] +" "+ ("T.C: " + T_C[0]));
+            Debug.Log("Ad: " + isimler[1] +" "+ "Yaþ: " + yaslar[1] +" "+ "TC: " + T_C[1]);
         }
     }
 
