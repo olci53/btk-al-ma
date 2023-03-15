@@ -4,9 +4,9 @@ using UnityEngine;
 
 public class Switch_case_Break : MonoBehaviour
 {
-    int level1=0;
-    int level2=1;
-    int level3=2;
+    [HideInInspector] public int level1=0;
+    [HideInInspector] public int level2=1;
+    [HideInInspector] public int level3=2;
 
     int level;
 
